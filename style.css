@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "poppins", serif;
+}
+
+body {
+  background-color: #222831;
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+}
+.navigation ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+}
+.navigation a {
+  text-decoration: none;
+  color: #eeee;
+}
+.navigation a:hover {
+  color: aqua;
+}
+hr {
+  opacity: 10%;
+}
+.logokarim {
+  display: flex;
+  margin-left: 20px;
+  width: 100%;
+  max-width: 180px;
+}
+.logokarim:hover {
+  filter: drop-shadow(0px 9px 9px rgba(0, 0, 0, 0.5));
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.herosub {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.name {
+  font-size: 3.9rem;
+  color: #ffffffee;
+}
+.name:hover {
+  filter: drop-shadow(0px 9px 9px rgba(0, 0, 0, 0.5));
+}
+.title {
+  font-size: 1.4rem;
+  color: aqua;
+}
+.title:hover {
+  filter: drop-shadow(0px 9px 9px rgba(0, 0, 0, 0.5));
+}
+
+.herobtns {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.hireme {
+  background-color: aqua;
+  color: #eeee;
+  border-radius: 24px;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cv {
+  background-color: rgba(57, 62, 70, 0.75);
+  color: #eeee;
+  border-radius: 24px;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  backdrop-filter: blur(4px);
+}
+.photok {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 50%;
+}
+.photok:hover {
+  filter: drop-shadow(0px 9px 9px rgba(0, 0, 0, 0.5));
+}
+
+.contact .namecontact {
+  font-size: 2rem;
+  color: aqua;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+.contact .social ul li img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  transition: transform 0.3s;
+}
+
+.contact .social ul li img:hover {
+  transform: scale(1.2);
+}
+
+.works .nameworks {
+  font-size: 2rem;
+  color: aqua;
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+
+.social .mediaa {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  position: relative;
+  top: 100px;
+  align-items: center;
+  list-style-type: none;
+}
+
+.about .abouttext {
+  color: #eeee;
+  font-size: 1.2rem;
+  padding: 2rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  position: relative;
+  top: 30px;
+  text-align: justify;
+}
+
+.abouttable {
+  margin: 3rem;
+  color: aqua;
+  text-align: justify;
+}
+
+.edu .n {
+  color: aqua;
+  padding: 2rem;
+}
+
+.edu .b {
+  color: #eeee;
+  padding: 2rem;
+}
+
+.e .date {
+  font-size: 1.3rem;
+}
+.date1 {
+  font-size: 1.3rem;
+}
+.date2 {
+  font-size: 1.3rem;
+}
+.date3 {
+  font-size: 1.3rem;
+}
+
+@keyframes fadeInPage {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+body {
+  animation: fadeInPage 0.6s ease-in-out;
+}
+
+.edu .n {
+  color: aqua;
+  font-size: 1.8rem;
+  position: relative;
+  top: 60px;
+  padding: 2rem;
+}
+.edu .prpr {
+  font-size: 1.2rem;
+  color: #eeee;
+  padding: 2rem;
+  margin-bottom: 0%;
+}
+
+.my-name {
+  background: linear-gradient(45deg, #8a54ff, #00ffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.editli {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+  padding: 0;
+  text-decoration: none;
+}
+.editli :hover {
+  text-decoration: none;
+}
+
+.aboutname {
+  font-size: 2rem;
+  color: aqua;
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+
+.namecontact {
+  font-size: 1.1rem;
+  color: aqua;
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+
+.socialmediapps {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+      object-fit: contain;
+
+  gap: 2rem;
+  align-items: center;
+  text-decoration: none;
+
+
+
+
+
+
+
+
+
+
+  
+}
+.socialmediapps ul {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+      object-fit: contain;
+
+}
+.socialmediapps img {
+  width: 150px;
+  height: 100px;
+  transition: transform 0.222s;
+  object-fit: contain;
+  margin-top: 200px;
+  object-fit: cover;
+  width: 120px;
+  height: 120px;
+}
+.socialmediapps ul li img:hover {
+  transform: scale(1.2);
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* ========================= */
+/* Responsive Design */
+/* ========================= */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .photok {
+    max-width: 300px;
+  }
+
+  .name {
+    font-size: 2.8rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .navigation ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem auto;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .herobtns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photok {
+    max-width: 250px;
+  }
+
+  .abouttable {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .about .abouttext {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .socialmediapps img {
+    width: 60px;
+    height: 60px;
+    margin-top: 90px;
+    object-fit: contain;
+  }
+}

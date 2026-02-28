@@ -1,0 +1,15 @@
+<svg width="500" height="180" viewBox="0 0 500 180" xmlns="http://www.w3.org/2000/svg">
+  <text
+    x="250"
+    y="90"
+    dominant-baseline="middle"
+    text-anchor="middle"
+    fill="white"
+    font-size="90"
+    font-family="Arial Black, sans-serif"
+    font-weight="900"
+    letter-spacing="2"
+  >
+    karim
+  </text>
+</svg>
